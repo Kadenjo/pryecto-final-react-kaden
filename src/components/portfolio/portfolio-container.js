@@ -26,7 +26,7 @@ export default class PortfolioContainer extends Component {
 
     getPortfolioItems(filter = null) {
         axios // This is jordans url but i should change it to mine.
-            .get('https://jordan.devcamp.space/portfolio/portfolio_items')
+            .get('https://mehh.devcamp.space/portfolio/portfolio_items')
             .then(response => {
                 if (filter) {
                     this.setState({
